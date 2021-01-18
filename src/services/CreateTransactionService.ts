@@ -1,6 +1,5 @@
-import AppError from '../errors/AppError';
-
 import { getCustomRepository, getRepository } from 'typeorm';
+import AppError from '../errors/AppError';
 
 import TransactionsRepository from '../repositories/TransactionsRepository';
 
